@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/makefun-x-reposts-02/feymarl2/makefun-reposts-20261126/rank.svg)](https://make.fun/bounty/makefun-x-reposts-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=makefun-x-reposts-02)
 [![reward](https://make.fun/badge/makefun-x-reposts-02/feymarl2/makefun-reposts-20261126/reward.svg)](https://make.fun/bounty/makefun-x-reposts-02?utm_source=github&utm_medium=readme&utm_campaign=makefun-x-reposts-02)
 
-Six quote-posts amplifying make.fun's newest X posts, named in POSTS.json.
+Five quote-posts amplifying make.fun's newest X posts, named in POSTS.json.
 
 ## Run it
 
@@ -12,7 +12,7 @@ Six quote-posts amplifying make.fun's newest X posts, named in POSTS.json.
 node main.ts
 ```
 
-Validates POSTS.json (six X quote-post addresses) and copies it to the output directory for the gate.
+Validates POSTS.json (five X quote-post addresses) and copies it to the output directory for the gate.
 
 ---
 
