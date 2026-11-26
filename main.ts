@@ -86,4 +86,5 @@ for (const entry of posts) {
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 copyFileSync(sourcePath, join(OUTPUT_DIR, 'POSTS.json'));
-console.log(`POSTS.json OK: ${posts.length} post(s) copied to ${OUTPUT_DIR}`);
+const summary = [...seen].sort().join(', ');
+console.log(`POSTS.json OK: ${posts.length} post(s) copied to ${OUTPUT_DIR} (status ids: ${summary})`);
